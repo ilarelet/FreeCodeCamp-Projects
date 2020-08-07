@@ -1,0 +1,185 @@
+html{
+    width: 100%;
+    font-family: OpenSans;
+    background-color: rgb(120, 120, 120);
+}
+
+#header{
+    position: fixed;
+    background-color: rgb(120, 120, 120);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 97.5%;
+    height: 65px;
+    top: 0;
+    padding-left: 1em;
+    margin-right: 10px;
+}
+
+#header-img{
+    width:250px;    
+    filter: invert(1);
+    align-self: center;
+    justify-self: start;
+}
+
+#navbar{
+    height: 100%;
+    padding-right: 1em;
+    padding-top: 0px;
+}
+
+#buttonss{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    padding: 0px;
+    margin-right: 5px;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.nav-link{
+    border-left: solid rgba(0, 0, 0, 0.95);
+    font-size: 24px;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding: 19px;
+}
+
+#main{
+    background-color: rgb(120, 120, 120);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#form{
+    padding-top: 120px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#label{
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+}
+
+#email{
+    margin: 15px;
+    width: 50%;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#submit{
+    width: 50%;
+    font-size: 26px;
+    color: white;
+    background-color: rgba(0, 0, 0,0.8);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#vidlabel{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px ;
+}
+
+#vidos{
+    align-self: center;
+    width: 50%;    
+    padding-bottom: 50px;
+}
+
+#products{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-right: 3%;
+    padding-bottom: 20px;
+    padding-top:5px;
+}
+
+@media (min-width: 1000px){
+    #products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-right: 3%;
+        padding-bottom: 20px;
+        padding-top:5px;
+    }
+}
+
+.model{
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.prname{
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+    align-self: stretch;
+    text-align: center;
+    font-size: 30px;
+}
+
+.boat-pic{
+    max-width:570px;
+    height: auto;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-right: -5%;
+    padding-left: -5%;
+    align-self: center;
+}
+
+.order{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    align-self: stretch;
+    justify-self: end;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    padding-top: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.footer-links{
+    justify-self: start;
+}
+
+@media (min-width:1032px){
+  .footer-links{
+      justify-self: end;
+  }
+}

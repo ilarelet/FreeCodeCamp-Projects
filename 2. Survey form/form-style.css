@@ -1,0 +1,118 @@
+main{
+    font-family: OpenSans;
+    font-size: 24px;
+    background-image: url(https://www.dhresource.com/0x0/f2/albu/g8/M00/09/23/rBVaV12msQGAGuVUAAM125lywms005.jpg/blurred-bokeh-red-love-hearts-vinyl-photography.jpg);
+    border-radius: 15px;
+    min-width: 550px;
+}
+
+h1{
+    font-size: 72px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: rgb(189, 2, 2);
+    text-shadow: 3px 3px black;
+}
+
+#description{
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 1em;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(189, 2, 2);
+    text-shadow: 2px 2px black;
+}
+
+header{
+    background-color: rgba(228, 24, 255, 0.4);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+    border-bottom: 3px solid rgba(139, 0, 139, 0.7);
+}
+
+#survey-form{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    min-width: 350px;
+    display: grid;
+    grid-template-columns: minmax(300px,100%);
+    background-color: rgba(228, 24, 255, 0.5);
+}
+
+.labelz{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.2em;
+}
+
+.textfield{
+    padding-top: 10px;
+    margin-bottom: 0.3em;
+    color:white;
+    text-shadow: 2px 2px black;
+}
+
+.numinput{
+    width: 100%;
+    font-size: 18px;
+}
+
+
+#submit{
+    line-height: 1.3;
+    font-size: 24;
+    width: 100%;
+}
+
+#lovestory{
+    width:100%;
+}
+
+#button1 {
+    background-color: rgb(251, 134, 255);
+}
+
+
+#button1:hover {
+    background-color:rgba(139, 0, 139,0.8);
+}
+
+
+.submitable{
+    justify-self: center;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    padding-top: 0px;
+}
+
+#faculty{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+#gorod{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.footer-links{
+    justify-self: start;
+}
+
+@media (min-width:1032px){
+  .footer-links{
+      justify-self: end;
+  }
+}

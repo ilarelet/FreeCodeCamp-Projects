@@ -1,0 +1,140 @@
+<head>
+    <link rel="stylesheet" href="form-style.css">
+    <link href="https://fonts.googleapis.com/css?family=OpenSans" rel="stylesheet" type="text/css">
+</head>
+
+<title>Love story survey</title>
+
+<main>
+
+<header>
+<h1 id="title">
+    Love Story Survey
+</h1>
+
+<p id="description">
+    Share your unique love story
+</p>
+</header>
+
+<form id="survey-form">
+<div class="textfield">
+    <label class="labelz" id="name-label" for="name">What is your name?</label>
+    <input type="text" id="name" placeholder="Your name" class="numinput" required>
+</div>
+<div class="textfield">
+    <label class="labelz" id="email-label" for="email">Enter your email to get the survey results:</label>
+    <input type="email" id="email" placeholder="Your email" class="numinput" required>
+</div>
+<div class="textfield">   
+    <label id="number-label" class="labelz" for="number">How old are you?</label>
+    <input type="number" id="number" min="0" max="120" placeholder="Your age" class="numinput">
+</div>
+<div class="textfield">     
+    <label id="s-name-label" class="labelz" for="s-name">What is your soulmate's name?</label>
+    <input type="text" id="s-name" placeholder="Your soulmate's name" class="numinput">
+</div>
+<div class='textfield'>    
+    <label id="s-number-label" class="labelz" for="s-age">How old is your soulmate?</label>
+    <input type="number" id="s-age" min="0" max="120" placeholder="Your soulame's age" class="numinput">
+</div>
+<div class="textfield">
+    <label for="dropdown" class="labelz">What is your Zodiac?</label>
+    <select id="dropdown" class="numinput">
+        <option value="Aries">Aries</option>
+        <option value="Taurus">Taurus</option>
+        <option value="Gemini">Gemini</option>
+        <option value="Cancer">Cancer</option>
+        <option value="Leo">Leo</option>
+        <option value="Virgo">Virgo</option>
+        <option value="Libra">Libra</option>
+        <option value="Scorpio">Scorpio</option>
+        <option value="Saggitarius">Saggitarius</option>
+        <option value="Capricorn">Capricorn</option>
+        <option value="Aquarius">Aquarius</option>
+        <option value="Pisces">Pisces</option>
+    </select>
+</div>
+<div class="textfield">
+    <label for="dropdown" class="labelz">What is your soulmate's Zodiac?</label>
+    <select id="dropdown" class="numinput">
+        <option value="Aries">Aries</option>
+        <option value="Taurus">Taurus</option>
+        <option value="Gemini">Gemini</option>
+        <option value="Cancer">Cancer</option>
+        <option value="Leo">Leo</option>
+        <option value="Virgo">Virgo</option>
+        <option value="Libra">Libra</option>
+        <option value="Scorpio">Scorpio</option>
+        <option value="Saggitarius">Saggitarius</option>
+        <option value="Capricorn">Capricorn</option>
+        <option value="Aquarius">Aquarius</option>
+        <option value="Pisces">Pisces</option>
+    </select>
+</div>   
+<div class="textfield">
+    <Label for="hogwarts" id="hogwarts-label" class="labelz">In which Hogwarts department would you study together?</Label>
+    <div id="faculty">
+    <label for="Griffindor">
+        <input name=hogwarts type="radio" id="Griffindor" value="Griffindor">Griffindor
+    </label>
+    <label for="Slytherin">
+        <input name=hogwarts type="radio" id="Slytherin" value="Slytherin">Slytherin
+    </label>
+    <label for="Hufflepuff">
+        <input name=hogwarts type="radio" id="Hufflepuff" value="Hufflepuff">Hufflepuff
+    </label>
+    <label for="Ravenclaw">
+        <input name=hogwarts type="radio" id="Ravenclaw" value="Ravenclaw">Ravenclaw
+    </label>
+    </div>
+</div>
+<div class="textfield">
+    <label for="cities" id="cities-label" class="labelz">Where would you like to go together</label>
+    <div id="gorod">
+    <label for="Paris">
+        <input name=cities type="checkbox" id="Paris" value="Paris">Paris
+    </label>
+    <label for="London">
+        <input name=cities type="checkbox" id="London" value="London">London
+    </label>
+    <label for="Rome">
+        <input name=cities type="checkbox" id="Rome" value="Rome">Rome
+    </label>
+    <label for="Moscow">
+        <input name=cities type="checkbox" id="Moscow" value="Moscow">Moscow
+    </label>
+    <label for="Sea/ocean">
+        <input name=cities type="checkbox" id="Sea/ocean" value="Sea/ocean">Sea/ocean
+    </label>
+    <label for="China">
+        <input name=cities type="checkbox" id="China" value="China">China
+    </label>
+    <label for="Greece">
+        <input name=cities type="checkbox" id="Greece" value="Greece">Greece
+    </label>
+    <label for="NewYork">
+        <input name=cities type="checkbox" id="NewYork" value="NewYork">New York
+    </label>
+    </div>
+</div>
+<div id="lovestoryarea" class="textfield">
+    <label for="lovestory" class="labelz">Tell us your love story:</label>
+    <textarea id="lovestory" rows="7" cols="60"></textarea>
+</div>
+<div class="textfield" class="submitable">
+    <button type="submit" id="submit">Submit!</button>
+</div>
+</form>
+</main>
+
+<footer>
+    <p class="footer-text">
+        Created by Ilya Eletskiy for freecodecamp and The Odin Project in 2020. 
+    </p>
+    <p class="footer-links">
+        <a id="footer-link1" href="https://github.com/ilarelet" target="_blank">My GitHub</a>
+        <a id="footer-link2" href="https://www.freecodecamp.org/ilarelet" target="_blank">My freecodecamp portfolio</a>
+        <a id="footer-link3" href="https://upload.wikimedia.org/wikipedia/commons/8/8f/Cute-kittens-12929201-1600-1200.jpg" target="_blank">A cute kitten picture</a>
+    </p>
+</footer>
