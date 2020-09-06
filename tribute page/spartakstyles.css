@@ -1,8 +1,6 @@
-<link href="https://fonts.googleapis.com/css?family=OpenSans" rel="stylesheet" type="text/css">
-
 #main{
     font-size: 18px;
-    font-family: OpenSans;
+    font-family: 'Open Sans';
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:

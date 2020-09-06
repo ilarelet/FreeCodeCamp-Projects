@@ -1,0 +1,119 @@
+#h1h{
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+p{
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#tophead{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 42px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;    
+}
+
+@media (min-width: 800px){
+    #tophead{
+        padding: 3px 10px 10px 10px;
+        font-size: 30px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: black;    
+    }
+}
+
+#main-doc{
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 18;
+    font-family: 'Open Sans';
+}
+
+@media (min-width: 800px){
+    #main-doc{
+      display: grid;
+      grid-template-columns: auto auto;
+      font-size: 18;
+      font-family: 'Open Sans';
+}}
+
+
+#menu{
+    width: 100%;    
+}
+
+@media (min-width: 800px){
+    #menu{
+        width: 300px;    
+    }
+}
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+    font-family: OpenSans;
+    margin-right: 10px;
+    width: 100%;
+}
+
+@media (min-width: 800px){
+#navbar{
+    display: flex;
+    flex-direction: column;
+    font-family: OpenSans;
+    margin-right: 10px;
+    width: 300px;
+    height: 100%;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: black;
+    position: fixed;
+}
+}
+
+.nav-link{
+    padding: 10px 10px 10px 10%;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-transform: uppercase;
+    color: black;
+    font-style: normal;
+}
+
+#paper{
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-right: 15px;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+code{
+    background-color: hsl(0, 0%, 93%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    text-align: center;
+    font-style: italic;
+    color: darkslategrey;
+}
+
+ol{
+    margin-top: 10px;
+    text-align: justify;
+}
+

@@ -1,0 +1,153 @@
+#navbar{
+    position:fixed;
+    width: 100%;
+    height: 50px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-link{
+    color: whitesmoke;
+    font-size: 24px;
+    padding-left: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#my_page{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100vh 100vh 100vh;
+    margin: 0%;
+    font-family: 'Open Sans';    
+}
+
+@media(max-width:1204px){
+    #my_page{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 100vh 130vh 100vh;
+        margin: 0%;
+        min-width: 600px;
+    }
+}
+
+#welcome-section{
+    background-color: blue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{
+    color: red;
+    font-size: 80px;
+    margin: 5px;
+    text-shadow: 4px 4px black;
+}
+
+h2{
+    color: red;
+    font-size: 40px;
+    margin: 5px;
+    text-shadow: 4px 4px black;
+}
+
+h3{
+    color:red;
+    font-size: 40px;
+    margin-bottom: 70px;
+    text-shadow: 4px 3px black;
+}
+
+#projects{
+    background-color:#8e32b9;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#thumbnails{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    grid-gap: 10px;
+    width: 95%;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.project-tile{
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.project-title{
+    font-size: 26px;
+    margin: 10px;
+    color:red;
+    text-transform: capitalize;
+    text-shadow: 2px 2px black;
+}
+
+.project-img{
+    height: auto;
+    width:100%;
+    max-width: 275px;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-color:#8e32b9;
+    border-radius: 25px;
+}
+
+#contacts{
+    background-color: darksalmon;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#linkin{
+    color:red;
+    font-size: 50px;
+    margin-bottom: 70px;
+    text-shadow: 4px 3px black;
+    text-align: center;
+}
+
+#profile-link{
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    border-style: solid;
+    border-color: darkslategrey;
+    color: darkslategrey;
+    padding: 15px 25px 15px 25px;
+    border-radius: 45px;
+
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    padding-top: 0px;
+    width: 100%;
+    background-color:rgb(228, 118, 82);
+}
+
+.footer-links{
+    justify-self: start;
+}
+
+@media (min-width:1032px){
+  .footer-links{
+      justify-self: end;
+  }
+}

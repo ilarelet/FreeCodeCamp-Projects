@@ -1,0 +1,93 @@
+<head>
+    <link rel="stylesheet" href="docstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+</head>
+
+<main id="main-doc">
+    <div id="menu">
+    <nav id="navbar">
+        <header id="tophead">Equations of fluid flow calculation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Volumetric_flow_law">Volumetric flow law</a>
+        <a class="nav-link" href="#Equation_of_state">Equation of state</a>
+        <a class="nav-link" href="#Bernulli_flow_equation">Bernulli flow equation</a>
+        <a class="nav-link" href="#Momentum_and_energy_conservation">Momentum and energy conservation</a>
+        <a class="nav-link" href="#About_this_page">About this page</a>
+        <a class="nav-link" href="#References">References</a>
+    </nav>
+    </div>
+    <div id="paper">
+    <section class="main-section" id="Introduction">
+        <header class="h1h">
+            Introduction
+        </header>
+        <p>
+            В тепловых двигателях проточного типа повсеместно распространены процессы, в
+которых к движущемуся в канале газу подводится тепловая мощность, что приводит к
+появлению теплового сопротивления, выражающегося в падении давления торможения
+потока. Данный эффект наблюдается во многих элементах ракетных и газотурбинных
+двигателей (ГТД): камерах сгорания, форсажных камерах, турбинах и т.д.
+Рассмотренные в данной работе соотношения и методики являются базовыми при
+составлении математических моделей, используемых при расчете таких процессов в
+указанных узлах ГТД.
+        </p>
+    </section>
+    <section class="main-section" id="Volumetric_flow_law">
+        <header class="h1h">
+            Volumetric flow law
+        </header>
+        <p>An equation of volumetric flow in a section:</p>
+        <code>G = ro*c*s</code>
+        <p>G - volumetric flow through the section; ro - fluid static density; c - fluid velocity; s - the cross section area</p>
+    </section>
+    <section class="main-section" id="Equation_of_state">
+        <header class="h1h">
+            Equation of state
+        </header>
+        <p>Ideal gas equation in static parameters:</p>
+        <code>p/ro = R*T</code>
+        <p>p - static pressure; ro - fluid static velocity; R - ideal gas constant; T - static gas temperature</p>
+    </section>
+    <section class="main-section" id="Bernulli_flow_equation">
+        <header class="h1h">
+            Bernulli flow equation
+        </header>
+        <p>Bernulli equation describes the relation between static, dynamic and full parameters</p>
+        <code>c^2/2 = integral(Cp(T)dT) from T to T'</code>
+        <p>T - full temperature.
+            All the equations above are valid for one specific section</p>
+    </section>
+    <section class="main-section" id="Momentum_and_energy_conservation">
+        <header class="h1h">
+            Momentum and energy conservation
+        </header>
+        <p>The law of momentum conservation between two sections of the gas flow</p>
+        <code>G*c2 - G*c1 = p1*s - p2*s</code>
+        <p>The law of energy conservation between two sections of the gas flow</p>
+        <code>Q = G*integral(Cp(T)dT) from T to T'</code>
+        <p>Q - applied heat power</p>
+    </section>
+    <section class="main-section" id="About_this_page">
+        <header class="h1h">
+            About this page
+        </header>
+        <p>
+            This article was written by me in 2017 as the first project on Fluid Dynamics.
+            I have used the information for a FreeCodeCamp project to practice HTML and CSS.
+        </p>
+    </section>
+    <section class="main-section" id="References">
+        <header class="h1h">
+            References
+        </header>
+        <ol>
+            <li>Абрамович Г.Н. Прикладная газовая динамика / под ред. А.А. Наседкина. М.: Наука, 1976. 888 с.</li>
+            <li>Идельчик И.Е. Справочник по гидравлическим сопротивлениям / под ред. М.О. Штейнберга. 3-е изд., перераб. и доп. – М.: Машиностроение, 1992. 672 с.</li>
+            <li>Лойцянский Л.Г. Механика жидкости и газа / под ред. Е.А. Вольмира. М.: Дрофа, 2003. 840 с.</li>
+            <li>Михальцев В.Е., Моляков В.Д. Расчет параметров цикла при проектировании газотурбинных двигателей и комбинированных установок. М.: из-во МГТУ им. Н.Э. Баумана, 2014. 60 c.</li>
+            <li>FreeCodeCamp.org</li>
+        </ol>
+    </section>
+    </div>
+</main>
+
